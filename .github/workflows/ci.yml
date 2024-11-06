@@ -20,7 +20,7 @@ jobs:
       - name: Install
         run: npm i
       - name: Check
-        run: npm exec tsc --noEmit
+        run: npm exec tsc -- --noEmit
       - name: Bundle
         run: npm exec pkgroll
       - name: Run
